@@ -1,4 +1,4 @@
-public class Koffer
+public class kKoffer
 {
    private String farbe;
    private int volumen;
@@ -19,6 +19,20 @@ public class Koffer
        return abschliessbar;
    }
    
+   public void setFarbe(String neuFarbe)
+   {
+       farbe = neuFarbe;
+   }
+   
+   public void setVolumen(int neuVolumen)
+   {
+       volumen = neuVolumen;
+   }
+   
+   public void setAbschliessbar(boolean neuAbschliessbar)
+   {
+       abschliessbar = neuAbschliessbar;
+   }
 
     
     
