@@ -47,10 +47,12 @@ public class Koffer
    {
        abschliessbar = neuAbschliessbar;
    }
+   
+   public void printKoffer()
+   {
+       System.out.println("Koffer:" + farbe + "-" + volumen + "-" + abschliessbar);
+   }
 
-    
-    
-    
     
     
 }
